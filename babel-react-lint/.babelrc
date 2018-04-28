@@ -1,0 +1,17 @@
+{
+  "presets": [
+    [
+      "env", {
+        "targets": { "browsers": [ "last 2 Chrome versions", "ie >= 11" ] },
+        "debug": true
+      }
+    ],
+    "stage-3", "react"
+  ],
+  "plugins": [
+    "lodash",
+    "dynamic-import-webpack",
+    "transform-object-assign",
+    "transform-class-properties"
+  ]
+}
